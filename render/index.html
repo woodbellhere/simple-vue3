@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="render.js"></script>
+    <script>
+      const vnode = h("div", { class: "woodbell", id: "abc" }, [
+        h("h2", null, "current counter:10"),
+        h("button", null, "+1"),
+      ]);
+      mount(vnode, document.querySelector("#app"));
+
+      setTimeout(() => {
+        const vnode1 = h("div", { class: "bellwood", id: "cba" }, "hahaha");
+        patch(vnode, vnode1);
+      }, 2000);
+    </script>
+  </body>
+</html>
