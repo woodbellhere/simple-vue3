@@ -1,5 +1,13 @@
 # vue 的简单实现
 
+## 测试覆盖率
+
+- Reactivity 部分
+  - Statements 92.23% (416/451)
+  - Branches 92.13% (82/89)
+  - Functions 82.6% (36/46)
+  - Lines 92.23% (416/451)
+
 ## 文件结构
 
 - full Implementation 项目核心，就是模仿源码和@cuixiaorui 的 mini-vue 项目写的代码，测试基本抄源码，然后删改了一下
