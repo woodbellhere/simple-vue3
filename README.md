@@ -7,6 +7,11 @@
   - Branches 92.13% (82/89)
   - Functions 82.6% (36/46)
   - Lines 92.23% (416/451)
+- Compiler 部分
+  - Statements 95.49% (572/599)
+  - Branches 994.31% (83/88)
+  - Functions 89.18% (33/37)
+  - Lines 95.49% (572/599)
 
 ## 文件结构
 
